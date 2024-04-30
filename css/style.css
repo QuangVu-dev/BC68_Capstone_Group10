@@ -1777,3 +1777,111 @@ h5.text_badge {
   --bs-btn-bg: #0d369f;
   --bs-btn-hover-bg: #ff6e65;
 }
+/* 404 PAGE */
+.error .error_wrapper {
+  background-image: url(../images/error.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  padding: 70px 0;
+  display: flex;
+  align-items: center;
+}
+.error .error-404.not-found {
+  max-width: 500px;
+}
+.error h2 {
+  font-size: 160px;
+  color: #fff;
+  line-height: 1;
+  font-weight: 500;
+}
+.error h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+.error .error_footer {
+  margin: 1.5em 0 0;
+}
+.error .search {
+  position: relative;
+}
+.error .search .search-input {
+  padding: 10px 58px 10px 20px;
+  font-size: 16px;
+  color: #060606;
+  border: 2px solid rgb(255 255 255 / 29%);
+  border-radius: 35px;
+  background: #fff;
+  margin: auto;
+  width: calc(100% - 40px);
+  line-height: 36px;
+}
+.error button {
+  border: none;
+  color: #fe6e65;
+  line-height: 1;
+  background: none;
+  position: absolute;
+  right: 10%;
+  padding: 18px 18px;
+  font-size: 16px;
+}
+.error .btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+}
+.error .btn-signup a {
+  background: none;
+  border-radius: 35px;
+  color: #eee;
+  margin-top: 50px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.error .btn-signup:hover a {
+  color: #fe6e65;
+}
+.error .error_wrapper::before {
+  content: "";
+  background: linear-gradient(
+    75deg,
+    rgb(16 16 16 / 62%) 10%,
+    rgb(230 2 100 / 0%)
+  );
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.error .error-404 {
+  z-index: 10;
+}
+/* end 404 page */
+
+/* BLOG SINGLE 3*/
+.inner_banner {
+  background-image: url(../images/bg4.jpg);
+  display: block;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+/* END BLOG SINGLE 3 */
