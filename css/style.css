@@ -1010,6 +1010,7 @@ footer .footer_copyright {
 }
 .question .btn-style:hover {
   background: #0b2f86;
+  color: #fff;
 }
 
 /* end question */
@@ -1781,7 +1782,7 @@ h5.text_badge {
 .error {
   z-index: 999;
 }
-/* .error::before {
+.error::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1794,7 +1795,7 @@ h5.text_badge {
     rgb(230 2 100 / 0%)
   );
   z-index: 2;
-} */
+}
 .error .error_wrapper {
   background-image: url(../images/error.jpg);
   background-repeat: no-repeat;
@@ -1805,32 +1806,22 @@ h5.text_badge {
   display: flex;
   align-items: center;
 }
-/* .error .error_wrapper::before {
-  content: "";
-  background: linear-gradient(
-    75deg,
-    rgb(16 16 16 / 62%) 10%,
-    rgb(230 2 100 / 0%)
-  );
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  min-height: 100%;
-} */
 .error .error-404.not-found {
   max-width: 500px;
+  position: relative;
+  z-index: 999;
 }
 .error h2 {
   font-size: 160px;
-  color: #fff;
+  color: #fff !important;
   line-height: 1;
   font-weight: 500;
+  position: relative;
 }
 .error h1 {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
+  color: #fff !important;
 }
 .error .error_footer {
   margin: 1.5em 0 0;
@@ -1844,7 +1835,7 @@ h5.text_badge {
   color: #060606;
   border: 2px solid rgb(255 255 255 / 29%);
   border-radius: 35px;
-  background: #fff;
+  background: #fff !important;
   margin: auto;
   width: calc(100% - 40px);
   line-height: 36px;
